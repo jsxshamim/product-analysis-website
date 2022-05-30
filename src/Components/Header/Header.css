@@ -1,0 +1,12 @@
+.shape-bg {
+    background-image: url(http://localhost:3000/static/media/shape-bg.fde3f19ed22195e929e8.png);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -34px;
+    left: -28px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(45deg);
+    z-index: -1;
+}
