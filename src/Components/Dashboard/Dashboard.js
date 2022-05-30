@@ -1,15 +1,10 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-
 import ChartOne from "../Charts/ChartOne";
 import ChartThree from "../Charts/ChartThree";
 import ChartTwo from "../Charts/ChartTwo";
+import useDashboard from "../Hooks/useDashboard";
 
 const Dashboard = () => {
-    const [dashboard, setDashboard] = useState([]);
-    useEffect(() => {
-        axios.get("data.json").then((res) => setDashboard(res.data));
-    }, []);
+    const [dashboard] = useDashboard();
 
     return (
         <div>
