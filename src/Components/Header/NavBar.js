@@ -11,7 +11,7 @@ const NavBar = () => {
         { name: "Contact", href: "/contact" },
     ];
     return (
-        <nav className="flex flex-wrap justify-between items-center mx-auto container pt-8 pb-12">
+        <nav className="flex flex-wrap justify-between items-center container mx-auto pt-8 pb-12">
             <Link to="/" className="flex items-center">
                 {/* <img src="/docs/images/logo.svg" className="mr-3 h-6 sm:h-9" alt="" /> */}
                 <span className="self-center text-xl font-semibold whitespace-nowrap">The Digital Dudes</span>

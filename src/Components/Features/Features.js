@@ -10,8 +10,8 @@ const Features = () => {
         { id: 3, title: "Digital Branding", description: "Years use place decay sax worth drift point table lasting end article express fortune demands own charmed.", icon: "https://i.ibb.co/p3q5Jzc/management.png" },
     ];
     return (
-        <section className="feature-section container">
-            <div className="features grid lg:grid-cols-3 grid-cols-1 gap-10 py-12">
+        <section className="feature-section">
+            <div className="features grid lg:grid-cols-3 grid-cols-1 gap-10 py-12 container mx-auto">
                 {features.map((feature) => (
                     <Feature key={feature.id} feature={feature}></Feature>
                 ))}

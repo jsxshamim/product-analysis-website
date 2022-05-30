@@ -10,7 +10,7 @@ const WhatWeDo = () => {
         { id: 4, title: "Social Media", description: "Preferred joy agreement put continual felicity elsewhere delivered now collect authority.", icon: faBox, iconColor: "bg-orange-500" },
     ];
     return (
-        <div className="grid grid-cols-12 gap-16 items-center py-10">
+        <div className="grid grid-cols-12 gap-16 items-center py-10 container mx-auto">
             <div className="col-span-5">
                 <h4 className="mb-5 text-1xl font-semibold text-secondary">WHAT WE DO</h4>
                 <h2 className="mb-5 font-semibold text-4xl text-title leading-snug">Let's Check our scientific Digital solutions</h2>

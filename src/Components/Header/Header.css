@@ -1,5 +1,5 @@
 .shape-bg {
-    background-image: url(http://localhost:3000/static/media/shape-bg.fde3f19ed22195e929e8.png);
+    background-image: url(../../Assets/Images/shape-bg.png);
     width: 400px;
     height: 400px;
     position: absolute;

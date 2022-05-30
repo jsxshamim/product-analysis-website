@@ -26,7 +26,7 @@ const Reviews = () => {
 
     return (
         <section>
-            <div className="container grid grid-cols-12 gap-24 mt-5">
+            <div className="container mx-auto grid grid-cols-12 gap-24 mt-5">
                 <div className="col-span-4">
                     <h3 className="text-2xl font-bold">Customer Reviews</h3>
                     <span className="flex gap-2 mt-4 mb-5 font-semibold">

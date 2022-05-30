@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import useReviews from "../Hooks/useReviews";
 import HomeReview from "./HomeReview/HomeReview";
 
@@ -10,7 +10,7 @@ const HomeReviews = () => {
     const navigate = useNavigate();
 
     return (
-        <section className="text-gray-700 container py-24">
+        <section className="text-gray-700 container mx-auto py-24">
             <div className="text-center md:max-w-xl lg:max-w-3xl mx-auto">
                 <h4 className="text-1xl font-bold mb-3 text-secondary">REVIEW</h4>
                 <h2 className="text-3xl font-bold mb-6 text-title">Happy Customers</h2>
