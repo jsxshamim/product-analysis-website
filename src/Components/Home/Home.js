@@ -1,12 +1,12 @@
 import React from "react";
 import Features from "../Features/Features";
-import Reviews from "../Reviews/Reviews";
+import HomeReviews from "../HomeReviews/HomeReviews";
 
 const Home = () => {
     return (
         <main>
             <Features></Features>
-            <Reviews></Reviews>
+            <HomeReviews></HomeReviews>
         </main>
     );
 };
