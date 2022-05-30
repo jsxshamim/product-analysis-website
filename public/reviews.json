@@ -1,0 +1,107 @@
+[
+    {
+        "_id": "629492406cc942fee682002c",
+        "rating": 3.1904,
+        "picture": "https://i.ibb.co/d46S4Yq/01.webp",
+        "name": "Nieves Burns",
+        "company": "TRANSLINK",
+        "reviewText": "It's an honor to be a part of this company. It's been my dream to become a Digital Dude for as long as I can remember, so when I finally got the opportunity to audition for the team, nothing could have stopped me from making it happen. I'm happy everyday that I get to work with these guys and show off my skills in design and development."
+    },
+
+    {
+        "_id": "62949240e57ca423e11fc15d",
+        "rating": 4.4431,
+        "picture": "https://i.ibb.co/HnZbK5f/16.jpg",
+        "name": "Jana Duncan",
+        "company": "BOVIS",
+        "reviewText": "I've been working with the team at The Digital Dudes for over a year now. The team is awesome and easy to work with. They have not had any issues with delivering on time and they are always willing to go the extra mile when needed. I'd recommend them to anyone who's looking for a team of skilled and talented professionals that are experts in their field."
+    },
+    {
+        "_id": "629492402b4d52e25c440812",
+        "rating": 2.6862,
+        "picture": "https://i.ibb.co/tDthgmg/09.jpg",
+        "name": "Pearson Walsh",
+        "company": "STUCCO",
+        "reviewText": "I created my business with the help of the Digital Dudes. I can't say enough about how much I love them and their team. They are always so helpful and have great ideas when I'm in a creative rut. All that other nonsense aside, The Digital Dudes is the best digital agency out there, hands down!"
+    },
+    {
+        "_id": "62949240f285c812a5d6ddca",
+        "rating": 4.3674,
+        "picture": "https://i.ibb.co/k4Rw7KJ/07.jpg",
+        "name": "Iris Knox",
+        "company": "ORONOKO",
+        "reviewText": "The Digital Dudes is a team of skilled professionals, always willing to help, who will succeed in whatever they set their minds to. They have overseen the creation of many of our successful marketing campaigns and I can confidently say that they are one of the best web marketing firms out there."
+    },
+    {
+        "_id": "629492409dde1276d5e154e7",
+        "rating": 1.0534,
+        "picture": "https://i.ibb.co/TKYz2bx/04.jpg",
+        "name": "Quinn Ferrell",
+        "company": "ZANITY",
+        "reviewText": "It was just a few days before my website launch and I had no idea where I should go to get video production done. Luckily, I found The Digital Dudes and they have been a lifesaver ever since. All my videos look slick and professional, which is exactly what I wanted. They are also highly responsive to feedback, which is great since the client always knows best"
+    },
+    {
+        "_id": "62949240914aa924af66291d",
+        "rating": 5,
+        "picture": "https://i.ibb.co/z8mBWYY/14.jpg",
+        "name": "Downs Adkins",
+        "company": "PLUTORQUE",
+        "reviewText": "The Digital Dudes is an innovative digital marketing agency. They are one of the leading agencies in the region in terms of innovation and creativity. I have personally worked with them on a couple of projects and they have always managed to provide me with the best possible solution to deliver my client's needs."
+    },
+    {
+        "_id": "62949240fa5bee0ab36288d0",
+        "rating": 5,
+        "picture": "https://i.ibb.co/MNcKbqB/03.jpg",
+        "name": "Kerry Mcdonald",
+        "company": "EXOPLODE",
+        "reviewText": "We are The Digital Dudes, we are professional website designers. You can find us on Facebook, twitter and many other social media platforms. We love what we do and hope you enjoy our website designing service!"
+    },
+    {
+        "_id": "62949240169afdec026519fa",
+        "rating": 3.8626,
+        "picture": "https://i.ibb.co/0BCb3jQ/12.webp",
+        "name": "Kaye Rocha",
+        "company": "LIQUIDOC",
+        "reviewText": "I love going to The Digital Dudes for my high-quality website designs and development projects. They are a great team of professionals - always responsive to my needs and very knowledgeable. They will always go that extra mile for my clients! I would highly recommend them for your next project."
+    },
+    {
+        "_id": "629492404fecaf3ea397e809",
+        "rating": 3.1875,
+        "picture": "https://i.ibb.co/jDQ9hKd/10.jpg",
+        "name": "Lourdes Mcclain",
+        "company": "DIGIQUE",
+        "reviewText": "The Digital Dudes are a great team. They are always ready to help and take on any task assigned to them. I have never seen them refuse a new project and even when they have been really busy with work, they still find time for the small tasks. I can't recommend them enough."
+    },
+    {
+        "_id": "62949240b08b4f4e8be9457f",
+        "rating": 5,
+        "picture": "https://i.ibb.co/YWV8RZF/11.jpg",
+        "name": "Barnes Cantu",
+        "company": "QUADEEBO",
+        "reviewText": "There is no team as awesome as The Digital Dudes! They're the best, both in their skill and in their customer service. You can't go wrong with these guys."
+    },
+    {
+        "_id": "6294924066b6184a91802485",
+        "rating": 4.5,
+        "picture": "https://i.ibb.co/FVpZg78/15.jpg",
+        "name": "Dionne Carter",
+        "company": "ROCKABYE",
+        "reviewText": "The Digital Dudes are a great team! I love working with them every day. It's not just that they are experts in what they do, it's also the fact that they make me feel like we're in this together--like we're all in this crazy thing called business together."
+    },
+    {
+        "_id": "629492409b3def9a34a3dc01",
+        "rating": 4.9246,
+        "picture": "https://i.ibb.co/mc8x0ZL/02.jpg",
+        "name": "Dana Ramos",
+        "company": "NEBULEAN",
+        "reviewText": "There's not much I can say about The Digital Dudes that hasn't already been said. They are the best at what they do and they do a great job of it too."
+    },
+    {
+        "_id": "62949240d4c8fe215e91b3d5",
+        "rating": 5,
+        "picture": "https://i.ibb.co/gD2RJJp/08.jpg",
+        "name": "Celeste Jimenez",
+        "company": "TERASCAPE",
+        "reviewText": "The Digital Dudes is the digital dudes. They're always working hard and always stay up to date on the latest trends in digital marketing. Whenever I need help with anything, they're there for me."
+    }
+]

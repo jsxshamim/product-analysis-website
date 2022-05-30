@@ -4,10 +4,10 @@ import React from "react";
 
 const WhatWeDo = () => {
     const serviceItems = [
-        { id: 1, title: "Digital Products", description: "Preferred joy agreement put continual felicity elsewhere delivered now collect authority.", icon: faFingerprint, iconColor: "#2eacfc" },
-        { id: 2, title: "Marketing Strategy", description: "Preferred joy agreement put continual felicity elsewhere delivered now collect authority.", icon: faSquarePollVertical, iconColor: "#ea4c89" },
-        { id: 3, title: "Digital branding", description: "Preferred joy agreement put continual felicity elsewhere delivered now collect authority.", icon: faBullseye, iconColor: "#3578ff" },
-        { id: 4, title: "Social Media", description: "Preferred joy agreement put continual felicity elsewhere delivered now collect authority.", icon: faBox, iconColor: "#ea4c89" },
+        { id: 1, title: "Digital Products", description: "Preferred joy agreement put continual felicity elsewhere delivered now collect authority.", icon: faFingerprint, iconColor: "bg-sky-400" },
+        { id: 2, title: "Marketing Strategy", description: "Preferred joy agreement put continual felicity elsewhere delivered now collect authority.", icon: faSquarePollVertical, iconColor: "bg-pink-600" },
+        { id: 3, title: "Digital branding", description: "Preferred joy agreement put continual felicity elsewhere delivered now collect authority.", icon: faBullseye, iconColor: "bg-blue-500" },
+        { id: 4, title: "Social Media", description: "Preferred joy agreement put continual felicity elsewhere delivered now collect authority.", icon: faBox, iconColor: "bg-orange-500" },
     ];
     return (
         <div className="grid grid-cols-12 gap-10 items-center py-10">
@@ -22,8 +22,8 @@ const WhatWeDo = () => {
             </div>
             <div className="col-span-7 grid grid-cols-2">
                 {serviceItems.map((item) => (
-                    <div className="item mb-10">
-                        <FontAwesomeIcon className={`bg-[${item.iconColor}] text-white text-4xl p-5 w-10 h-10 rounded-full mb-5`} icon={item.icon} />
+                    <div key={item.id} className="item mb-10">
+                        <FontAwesomeIcon className={`${item.iconColor} text-white text-4xl p-5 w-10 h-10 object-cover rounded-full mb-5`} icon={item.icon} />
                         <h4 className="text-2xl text-title font-semibold mb-5">{item.title}</h4>
                         <p className="text-paragraph">{item.description}</p>
                     </div>

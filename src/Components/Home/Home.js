@@ -4,10 +4,10 @@ import Reviews from "../Reviews/Reviews";
 
 const Home = () => {
     return (
-        <div>
+        <main>
             <Features></Features>
             <Reviews></Reviews>
-        </div>
+        </main>
     );
 };
 
