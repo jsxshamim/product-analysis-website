@@ -3,7 +3,7 @@ import { faStar as faStarStroke } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-const Rating = ({ rating }) => {    
+const Rating = ({ rating }) => {
     return (
         <div className="flex justify-center items-center gap-2">
             <div className="flex justify-center mb-0 text-yellow-500 text-[15px]">

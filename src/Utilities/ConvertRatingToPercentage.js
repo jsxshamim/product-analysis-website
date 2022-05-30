@@ -1,5 +1,8 @@
 const ratingToPercentage = (numberOfRatings, totalReviews) => {
-    const parentage = (numberOfRatings * 100) / totalReviews;
-    return parseInt(parentage);
+    if (numberOfRatings) {
+        const percentage = (numberOfRatings * 100) / totalReviews;
+        const percentageNumber = parseInt(percentage).toString();
+        return percentageNumber;
+    }
 };
 export { ratingToPercentage };

@@ -26,12 +26,12 @@ const Reviews = () => {
 
     return (
         <section>
-            <div className="container grid grid-cols-12 gap-24">
+            <div className="container grid grid-cols-12 gap-24 mt-5">
                 <div className="col-span-4">
                     <h3 className="text-2xl font-bold">Customer Reviews</h3>
-                    <p className="flex gap-2 mt-3 mb-4">
-                        <Rating rating={averageRating} /> <p>Based on {totalReviews} Reviews</p>
-                    </p>
+                    <span className="flex gap-2 mt-4 mb-5 font-semibold">
+                        <Rating rating={averageRating} /> <span>Based on {totalReviews} Reviews</span>
+                    </span>
                     <ReviewProgress starPercentage={star5percentage} numberOfRate={5} />
                     <ReviewProgress starPercentage={star4percentage} numberOfRate={4} />
                     <ReviewProgress starPercentage={star3percentage} numberOfRate={3} />
@@ -46,7 +46,7 @@ const Reviews = () => {
                 </div>
                 <div className="col-span-8 grid grid-cols-1">
                     {reviews.map((review) => (
-                        <Review key={review.id} review={review} />
+                        <Review key={review._id} review={review} />
                     ))}
                 </div>
             </div>
