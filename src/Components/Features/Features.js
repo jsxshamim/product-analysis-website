@@ -1,6 +1,7 @@
 import React from "react";
+import Feature from "./Feature/Feature";
 import "./Features.css";
-import WhatWeDo from "./WhatWeDo";
+import WhatWeDo from "./WhatWeDo/WhatWeDo";
 
 const Features = () => {
     const features = [
@@ -12,14 +13,12 @@ const Features = () => {
         <section className="feature-section container">
             <div className="features grid lg:grid-cols-3 grid-cols-1 gap-10 py-12">
                 {features.map((feature) => (
-                    <div className={`bg-white text-center p-10 rounded-lg h-fit ${feature.id === 1 ? "mt-10" : feature.id === 2 ? "mt-32" : "mt-52"} shadow-xl`}>
-                        <h4 className="text-2xl font-bold mb-5 text-title">{feature.title}</h4>
-                        <p className="text-paragraph mb-5">{feature.description}</p>
-                        <img className="w-44 h-44 m-auto" src={feature.icon} alt="" />
-                    </div>
+                    <Feature key={feature.id} feature={feature}></Feature>
                 ))}
             </div>
-            <WhatWeDo></WhatWeDo>
+            <div className="what-we-do">
+                <WhatWeDo></WhatWeDo>
+            </div>
         </section>
     );
 };
