@@ -3,6 +3,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const WhatWeDo = () => {
+    const serviceItems = [
+        { id: 1, title: "Digital Products", description: "Preferred joy agreement put continual felicity elsewhere delivered now collect authority.", icon: faFingerprint, iconColor: "#2eacfc" },
+        { id: 2, title: "Marketing Strategy", description: "Preferred joy agreement put continual felicity elsewhere delivered now collect authority.", icon: faSquarePollVertical, iconColor: "#ea4c89" },
+        { id: 3, title: "Digital branding", description: "Preferred joy agreement put continual felicity elsewhere delivered now collect authority.", icon: faBullseye, iconColor: "#3578ff" },
+        { id: 4, title: "Social Media", description: "Preferred joy agreement put continual felicity elsewhere delivered now collect authority.", icon: faBox, iconColor: "#ea4c89" },
+    ];
     return (
         <div className="grid grid-cols-12 gap-10">
             <div className="col-span-4">
@@ -15,26 +21,13 @@ const WhatWeDo = () => {
                 <button className="dude-btn">Discover More</button>
             </div>
             <div className="col-span-8 grid grid-cols-2">
-                <div className="item">
-                    <FontAwesomeIcon icon={faFingerprint} />
-                    <h4>Digital Products</h4>
-                    <p>Preferred joy agreement put continual felicity elsewhere delivered now collect authority.</p>
-                </div>
-                <div className="item">
-                    <FontAwesomeIcon icon={faSquarePollVertical} />
-                    <h4>Digital Products</h4>
-                    <p>Preferred joy agreement put continual felicity elsewhere delivered now collect authority.</p>
-                </div>
-                <div className="item">
-                    <FontAwesomeIcon icon={faBullseye} />
-                    <h4>Digital Products</h4>
-                    <p>Preferred joy agreement put continual felicity elsewhere delivered now collect authority.</p>
-                </div>
-                <div className="item">
-                    <FontAwesomeIcon icon={faBox} />
-                    <h4>Digital Products</h4>
-                    <p>Preferred joy agreement put continual felicity elsewhere delivered now collect authority.</p>
-                </div>
+                {serviceItems.map((item) => (
+                    <div className="item">
+                        <FontAwesomeIcon className={`bg-[${item.iconColor}] text-white text-4xl p-5 rounded-full mb-5`} icon={item.icon} />
+                        <h4 className="text-2xl text-title font-semibold mb-5">{item.title}</h4>
+                        <p className="text-paragraph">{item.description}</p>
+                    </div>
+                ))}
             </div>
         </div>
     );
