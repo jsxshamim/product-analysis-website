@@ -26,7 +26,7 @@ const Reviews = () => {
 
     return (
         <section>
-            <div className="container mx-auto grid md:grid-cols-12 grid-cols-1 lg:gap-20 gap-10  mt-5">
+            <div className="container mx-auto grid md:grid-cols-12 grid-cols-1 lg:gap-20 md:gap-10 gap-y-10 mt-5 px-5">
                 <div className="xl:col-span-4 lg:col-span-4 md:col-span-5 col-span-12">
                     <h3 className="text-2xl font-bold">Customer Reviews</h3>
                     <span className="flex xl:flex-row flex-col gap-2 xl:mt-4 xl:mb-5 font-semibold py-5 my-5 xl:border-0 border">
