@@ -3,10 +3,8 @@ import { Link } from "react-router-dom";
 import imo from "../../Assets/Images/not-found-emo.gif";
 
 const NotFound = () => {
-    console.log(process.env);
     return (
         <div className="flex flex-col justify-center items-center ">
-            {/* <FontAwesomeIcon className="text-[200px] my-5" icon={faFaceFrown} /> */}
             <img className="w-1/6" src={imo} alt="" />
             <h1 className="text-9xl font-bold font-mono mb-5">404</h1>
             <h4 className="text-4xl">Page not found</h4>
