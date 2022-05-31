@@ -4,19 +4,8 @@ import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from "rec
 const ChartTwo = ({ data }) => {
     return (
         <div className="text-center">
-            <h2 className="text-2xl font-bold">Bar Chart</h2>
-            <BarChart
-                className="m-auto"
-                width={500}
-                height={300}
-                data={data}
-                margin={{
-                    top: 5,
-                    right: 30,
-                    left: 20,
-                    bottom: 5,
-                }}
-            >
+            <h2 className="text-2xl font-bold mb-4">Bar Chart</h2>
+            <BarChart className="m-auto" width={500} height={300} data={data}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="month" />
                 <YAxis />
