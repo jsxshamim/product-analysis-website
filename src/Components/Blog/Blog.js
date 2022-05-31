@@ -5,7 +5,7 @@ import "./Blog.css";
 const Blog = () => {
     return (
         <>
-            <div className="blog container mx-auto">
+            <div className="blog container mx-auto h-[75vh]">
                 <h3 className="text-3xl font-bold mb-5">React Context API কি?</h3>
                 <p>Basically React Components এবং States এর সাথে কাজ করে। react application এর মধ্যে parent components এবং child components থাকে। এই parent এবং child componets মিলে তৈরি করে একটি componet tree.</p>
                 <img className="w-10/12 mx-auto mb-5" src={blogImage} alt="" />
