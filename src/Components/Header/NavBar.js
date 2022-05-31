@@ -2,6 +2,11 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
+    const activeStyle = {
+        color: "#f35a38",
+        fontWeight: "bold",
+        borderBottom: "1px solid #f35a38",
+    };
     const menuItems = [
         { name: "Home", href: "/" },
         { name: "Dashboard", href: "/dashboard" },
@@ -13,8 +18,9 @@ const NavBar = () => {
     return (
         <nav className="flex flex-wrap justify-between items-center container mx-auto pt-8 pb-12">
             <Link to="/" className="flex items-center">
-                {/* <img src="/docs/images/logo.svg" className="mr-3 h-6 sm:h-9" alt="" /> */}
-                <span className="self-center text-xl font-semibold whitespace-nowrap">The Digital Dudes</span>
+                <span className="self-center text-xl lg:text-2xl font-bold transition text-title whitespace-nowrap">
+                    The Digital <span className="text-secondary">Dudes</span>
+                </span>
             </Link>
             <button data-collapse-toggle="mobile-menu" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100">
                 <span className="sr-only">Open main menu</span>
@@ -33,7 +39,7 @@ const NavBar = () => {
                 <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                     {menuItems.map((menu, index) => (
                         <li key={index}>
-                            <NavLink to={menu.href} className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
+                            <NavLink style={({ isActive }) => (isActive ? activeStyle : undefined)} to={menu.href} className="block py-2 pr-4 pl-3 text-gray-700 md:hover:bg-transparent md:hover:text-secondary md:p-0">
                                 {menu.name}
                             </NavLink>
                         </li>
