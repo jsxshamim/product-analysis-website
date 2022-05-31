@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import headerImage from "../../Assets/Images/header-images.png";
 
 const HeaderFeature = () => {
@@ -7,7 +8,9 @@ const HeaderFeature = () => {
             <div>
                 <h1 className="text-6xl font-bold mb-8 leading-snug text-title">Our goal is to achieve success</h1>
                 <p className="mb-8 text-lg text-paragraph">Belonging in september no am immediate newspaper. september she conveying did eat may extensive.</p>
-                <button className="dude-btn">Reviews</button>
+                <Link to={"/reviews"} className="dude-btn">
+                    Reviews
+                </Link>
             </div>
             <div className="flex justify-end">
                 <img className="w-11/12" src={headerImage} alt="" />
