@@ -20,7 +20,26 @@ const Blog = () => {
                     access করতে পারে কোনরকম ঝামেলা ছাড়াই। Provider এখানের ছাদের মত যেখানে তার নিচে থাকা সকল components consume করতে পারে।{" "}
                 </p>
             </div>
-
+            <div className="blog container mx-auto">
+                <h3 className="text-3xl font-bold mb-5">HTML Semantic Element কি?</h3>
+                <p>
+                    Semantic HTML Element মানুষ এবং মেশিনের পাঠযোগ্য উপায়ে স্পষ্টভাবে তাদের অর্থ বর্ণনা করে। যে সকল Elements এর নাম দেখলে বুঝা যায় যে সে কি নির্দেশ করছে বা তার use of pourpos কি। যদি কিছু non-semantic এলিমেন্ট দেখি যেমন {"<div>"} অথবা{" "}
+                    {"<span>"} তাহলে বুঝা যাবে না এই element গুলো কি নির্দেশ করছে কিন্তু যদি {"<form>, <header>, <article>"} এই element গুলা দেখি তাহলে সহজেই বুঝা যাচ্ছে যে এরা কি নির্দেশ করছে এবং এদের use of pourpos কি।
+                </p>
+                <p>পুরাতন html ভার্সনে বেশিরভাগই non-semantic element ব্যবহার হত। html5 এর element গুলার মুল ফোকাস ছিলো semantic element এর উপর। কিছু উল্লেখযোগ্য html5 semantic elements:</p>
+                <ul className="list-inside list-disc mb-3">
+                    <li>article</li>
+                    <li>detail</li>
+                    <li>figure</li>
+                    <li>footer</li>
+                    <li>header</li>
+                    <li>main</li>
+                    <li>mark</li>
+                    <li>section</li>
+                    <li>summary</li>
+                </ul>
+                <p>semantic element বিশেষকরে disablilities মানুষদের জন্য accicibility বাড়িয়ে দেই। এছাড়াও SOE optimization এর ক্ষেত্রে semantic elements বিশেষ ভুমিকা পালন করে।</p>
+            </div>
         </>
     );
 };
