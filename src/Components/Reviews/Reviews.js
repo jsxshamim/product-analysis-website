@@ -26,11 +26,11 @@ const Reviews = () => {
 
     return (
         <section>
-            <div className="container mx-auto grid grid-cols-12 gap-24 mt-5">
-                <div className="col-span-4">
+            <div className="container mx-auto grid md:grid-cols-12 grid-cols-1 lg:gap-20 gap-10  mt-5">
+                <div className="xl:col-span-4 lg:col-span-4 md:col-span-5 col-span-12">
                     <h3 className="text-2xl font-bold">Customer Reviews</h3>
-                    <span className="flex gap-2 mt-4 mb-5 font-semibold">
-                        <Rating rating={averageRating} /> <span>Based on {totalReviews} Reviews</span>
+                    <span className="flex xl:flex-row flex-col gap-2 xl:mt-4 xl:mb-5 font-semibold py-5 my-5 xl:border-0 border">
+                        <Rating rating={averageRating} /> <span className="text-center">Based on {totalReviews} Reviews</span>
                     </span>
                     <ReviewProgress starPercentage={star5percentage} numberOfRate={5} />
                     <ReviewProgress starPercentage={star4percentage} numberOfRate={4} />
@@ -44,7 +44,7 @@ const Reviews = () => {
                         <button className="dude-btn mt-6">Write a Review</button>
                     </div>
                 </div>
-                <div className="col-span-8 grid grid-cols-1">
+                <div className="xl:col-span-8 lg:col-span-8 md:col-span-7 col-span-12 grid grid-cols-1">
                     {reviews.map((review) => (
                         <Review key={review._id} review={review} />
                     ))}

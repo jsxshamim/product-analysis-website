@@ -17,7 +17,7 @@ const ChartThree = ({ data }) => {
         );
     };
     return (
-        <div className="grid lg:grid-cols-3 grid-cols-1 mt-10">
+        <div className="grid md:grid-cols-3 grid-cols-1 mt-10">
             <div className="text-center m-auto">
                 <h2 className="text-2xl font-bold">Sell - Pie Chart</h2>
                 <PieChart className="text-center m-auto" width={200} height={200}>

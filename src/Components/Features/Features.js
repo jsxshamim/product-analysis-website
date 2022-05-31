@@ -11,7 +11,7 @@ const Features = () => {
     ];
     return (
         <section className="feature-section">
-            <div className="features grid lg:grid-cols-3 grid-cols-1 gap-10 py-12 container mx-auto">
+            <div className="features grid md:grid-cols-3 grid-cols-1 lg:gap-10 gap-5 py-12 px-4 lg:container mx-auto">
                 {features.map((feature) => (
                     <Feature key={feature.id} feature={feature}></Feature>
                 ))}
